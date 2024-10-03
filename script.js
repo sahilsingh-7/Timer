@@ -2,7 +2,7 @@ let intervalId = null;
 
 document.getElementById('startBtn').addEventListener('click', function() {
     if (!intervalId) {
-        intervalId = setInterval(playAlarm, 3000); // 300000 milliseconds = 5 minutes
+        intervalId = setInterval(playAlarm, 300000); // 300000 milliseconds = 5 minutes
         playAlarm(); // Play immediately when the alarm starts
     }
 });
